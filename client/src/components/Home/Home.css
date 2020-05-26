@@ -1,0 +1,45 @@
+.First{
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.Outer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.nameField{
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: rgb(215, 226, 215);
+    color: rgb(29, 26, 26);
+    text-align: center;
+}
+
+.roomField{
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: rgb(215, 226, 215);
+    color: rgb(29, 26, 26);
+    text-align: center;
+    
+}
+
+.loginButton{
+    background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
